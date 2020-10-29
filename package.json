@@ -14,7 +14,7 @@
 	},
 	"main": "lib/cjs/index.js",
 	"module": "lib/esm/index.js",
-	"types": "dist/cjs/index.d.ts",
+	"types": "lib/cjs/index.d.ts",
 	"files": [
 		"lib"
 	],
@@ -45,7 +45,7 @@
 		"icons"
 	],
 	"peerDependencies": {
-		"react": "*"
+		"react": ">=16.8.0"
 	},
 	"devDependencies": {
 		"@abhijithvijayan/eslint-config": "2.5.6",
