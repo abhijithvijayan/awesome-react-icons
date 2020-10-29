@@ -2,9 +2,11 @@
 import React from 'react';
 
 import VerticalDotsIcon from './icons/VerticalDots';
+import ChevronDownIcon from './icons/ChevronDown';
 import SmartPhoneIcon from './icons/SmartPhone';
 import ArrowLeftIcon from './icons/ArrowLeft';
 import BriefcaseIcon from './icons/Briefcase';
+import ChevronUpIcon from './icons/ChevronUp';
 import ActivityIcon from './icons/Activity';
 import CalendarIcon from './icons/Calendar';
 import BurgerIcon from './icons/Burger';
@@ -22,6 +24,8 @@ export const icons = {
   briefcase: BriefcaseIcon,
   burger: BurgerIcon,
   calendar: CalendarIcon,
+  'chevron-up': ChevronUpIcon,
+  'chevron-down': ChevronDownIcon,
   coffee: CoffeeIcon,
   phone: PhoneIcon,
   radio: RadioIcon,
