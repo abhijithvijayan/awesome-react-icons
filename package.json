@@ -12,14 +12,17 @@
 	"engines": {
 		"node": ">=12.18.3"
 	},
-	"main": "lib/index.js",
+	"main": "lib/cjs/index.js",
+	"module": "lib/esm/index.js",
 	"types": "lib",
 	"files": [
 		"lib"
 	],
 	"scripts": {
-		"dev": "tsc --watch",
-		"build": "rimraf lib && tsc",
+		"watch": "tsc --module esnext --outDir lib/esm --watch",
+		"build:cjs": "tsc --module commonjs --outDir lib/cjs",
+		"build:esm": "tsc --module esnext --outDir lib/esm",
+		"build": "rimraf lib && yarn build:cjs && yarn build:esm",
 		"prepare": "install-peers",
 		"pack:list": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
 		"prepublishOnly": "yarn build",
