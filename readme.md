@@ -74,9 +74,34 @@ Type: `string`
 
 Icon's name
 
+#### size
+
+Type: `number` or `string`
+
+Default: `20`
+
+Size of icon
+
+#### stroke
+
+Type: `string`
+
+Default: `currentColor`
+
+Stroke color
+
+#### strokeWidth
+
+Type: `number` or `string`
+
+Default: `1.5`
+
+Stroke width
+
 #### rootDivClassName
 
 Type: `string`
+
 Default: `icon-wrapper`
 
 Wrapper div element's class name

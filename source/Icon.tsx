@@ -14,7 +14,9 @@ import PhoneIcon from './icons/Phone';
 import UserIcon from './icons/User';
 import StarIcon from './icons/Star';
 
-const icons = {
+import {IconProps} from './types';
+
+export const icons = {
   activity: ActivityIcon,
   'arrow-left': ArrowLeftIcon,
   briefcase: BriefcaseIcon,
@@ -31,21 +33,11 @@ const icons = {
 
 export type Icons = keyof typeof icons;
 
-type Props = {
+export interface Props extends IconProps {
   name: Icons;
   title?: string;
-  fill?: string;
-  stroke?: string;
-  height?: string | number;
-  width?: string | number;
-  hoverFill?: string;
-  hoverStroke?: string;
-  strokeWidth?: string | number;
-  className?: string;
   rootDivClassName?: string;
-  style?: any;
-  onClick?: (e?: any) => void;
-};
+}
 
 const Icon: React.FC<Props> = ({name, rootDivClassName, ...rest}) => {
   return (

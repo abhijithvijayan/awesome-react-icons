@@ -1,19 +1,25 @@
 import React from 'react';
 
-const Burger: React.FC = (props) => {
+import {IconProps} from '../types';
+
+const Burger: React.FC<IconProps> = ({
+  size = 20,
+  stroke = 'currentColor',
+  ...rest
+}) => {
   return (
     <>
       <svg
-        height={20}
-        width={20}
+        height={size}
+        width={size}
         viewBox="0 0 24 24"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        {...props}
+        {...rest}
       >
         <path
           d="M4 6H20M4 12H20M4 18H11"
-          stroke="currentColor"
+          stroke={stroke}
           strokeWidth="2"
           strokeLinecap="round"
           strokeLinejoin="round"

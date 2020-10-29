@@ -1,19 +1,25 @@
 import React from 'react';
 
-const VerticalDots: React.FC = (props) => {
+import {IconProps} from '../types';
+
+const VerticalDots: React.FC<IconProps> = ({
+  size = 20,
+  stroke = 'currentColor',
+  ...rest
+}) => {
   return (
     <>
       <svg
-        width={20}
-        height={20}
+        width={size}
+        height={size}
         viewBox="0 0 24 24"
         fill="none"
-        stroke="currentColor"
+        stroke={stroke}
         strokeWidth={1.5}
         strokeLinecap="round"
         strokeLinejoin="round"
         className="more-vertical_svg__feather more-vertical_svg__feather-more-vertical"
-        {...props}
+        {...rest}
       >
         <circle cx={12} cy={12} r={1} />
         <circle cx={12} cy={5} r={1} />

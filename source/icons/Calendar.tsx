@@ -1,19 +1,25 @@
 import React from 'react';
 
-const Calendar: React.FC = (props) => {
+import {IconProps} from '../types';
+
+const Calendar: React.FC<IconProps> = ({
+  size = 20,
+  stroke = 'currentColor',
+  ...rest
+}) => {
   return (
     <>
       <svg
-        width={20}
-        height={20}
+        width={size}
+        height={size}
         viewBox="0 0 24 24"
         fill="none"
-        stroke="currentColor"
+        stroke={stroke}
         strokeWidth={1.5}
         strokeLinecap="round"
         strokeLinejoin="round"
         className="calendar_svg__feather calendar_svg__feather-calendar"
-        {...props}
+        {...rest}
       >
         <rect x={3} y={4} width={18} height={18} rx={2} ry={2} />
         <path d="M16 2v4M8 2v4M3 10h18" />
