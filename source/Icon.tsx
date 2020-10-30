@@ -19,7 +19,9 @@ import EyeOffIcon from './icons/EyeOff';
 import WatchIcon from './icons/Watch';
 import RadioIcon from './icons/Radio';
 import PhoneIcon from './icons/Phone';
+import MinusIcon from './icons/Minus';
 import UserIcon from './icons/User';
+import PlusIcon from './icons/Plus';
 import StarIcon from './icons/Star';
 import SunIcon from './icons/Sun';
 
@@ -39,7 +41,9 @@ export const icons = {
   'cloud-snow': CloudSnowIcon,
   coffee: CoffeeIcon,
   'eye-off': EyeOffIcon,
+  minus: MinusIcon,
   phone: PhoneIcon,
+  plus: PlusIcon,
   radio: RadioIcon,
   smartphone: SmartPhoneIcon,
   star: StarIcon,
