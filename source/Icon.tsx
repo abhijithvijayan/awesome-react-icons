@@ -1,20 +1,27 @@
 /* eslint-disable react/jsx-props-no-spreading, @typescript-eslint/no-explicit-any */
 import React from 'react';
 
-import VerticalDotsIcon from './icons/VerticalDots';
+import CloudLightningIcon from './icons/CloudLightning';
+import MoreVerticalIcon from './icons/MoreVertical';
 import ChevronDownIcon from './icons/ChevronDown';
+import CheckCircleIcon from './icons/CheckCircle';
 import SmartPhoneIcon from './icons/SmartPhone';
 import ArrowLeftIcon from './icons/ArrowLeft';
 import BriefcaseIcon from './icons/Briefcase';
 import ChevronUpIcon from './icons/ChevronUp';
+import CloudSnowIcon from './icons/CloudSnow';
 import ActivityIcon from './icons/Activity';
 import CalendarIcon from './icons/Calendar';
 import BurgerIcon from './icons/Burger';
 import CoffeeIcon from './icons/Coffee';
+import CircleIcon from './icons/Circle';
+import EyeOffIcon from './icons/EyeOff';
+import WatchIcon from './icons/Watch';
 import RadioIcon from './icons/Radio';
 import PhoneIcon from './icons/Phone';
 import UserIcon from './icons/User';
 import StarIcon from './icons/Star';
+import SunIcon from './icons/Sun';
 
 import {IconProps} from './types';
 
@@ -24,15 +31,22 @@ export const icons = {
   briefcase: BriefcaseIcon,
   burger: BurgerIcon,
   calendar: CalendarIcon,
+  'check-circle': CheckCircleIcon,
   'chevron-up': ChevronUpIcon,
   'chevron-down': ChevronDownIcon,
+  circle: CircleIcon,
+  'cloud-lightning': CloudLightningIcon,
+  'cloud-snow': CloudSnowIcon,
   coffee: CoffeeIcon,
+  'eye-off': EyeOffIcon,
   phone: PhoneIcon,
   radio: RadioIcon,
   smartphone: SmartPhoneIcon,
   star: StarIcon,
+  sun: SunIcon,
   user: UserIcon,
-  'vertical-dots': VerticalDotsIcon,
+  'more-vertical': MoreVerticalIcon,
+  watch: WatchIcon,
 };
 
 export type Icons = keyof typeof icons;

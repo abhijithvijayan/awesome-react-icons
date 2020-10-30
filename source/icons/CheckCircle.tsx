@@ -2,7 +2,7 @@ import React from 'react';
 
 import {IconProps} from '../types';
 
-const VerticalDots: React.FC<IconProps> = ({
+const CheckCircle: React.FC<IconProps> = ({
   size = 20,
   stroke = 'currentColor',
   ...rest
@@ -18,14 +18,13 @@ const VerticalDots: React.FC<IconProps> = ({
         strokeWidth={1.5}
         strokeLinecap="round"
         strokeLinejoin="round"
-        className="more-vertical_svg__feather more-vertical_svg__feather-more-vertical"
+        className="check-circle_svg__feather check-circle_svg__feather-check-circle"
         {...rest}
       >
-        <circle cx={12} cy={12} r={1} />
-        <circle cx={12} cy={5} r={1} />
-        <circle cx={12} cy={19} r={1} />
+        <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
+        <path d="M22 4L12 14.01l-3-3" />
       </svg>
     </>
   );
 };
-export default React.memo(VerticalDots);
+export default React.memo(CheckCircle);
