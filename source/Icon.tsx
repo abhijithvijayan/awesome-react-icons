@@ -6,6 +6,7 @@ import ExternalLinkIcon from './icons/ExternalLink';
 import MoreVerticalIcon from './icons/MoreVertical';
 import ChevronDownIcon from './icons/ChevronDown';
 import CheckCircleIcon from './icons/CheckCircle';
+import CheckSquareIcon from './icons/CheckSquare';
 import SmartPhoneIcon from './icons/SmartPhone';
 import ArrowRightIcon from './icons/ArrowRight';
 import ArrowLeftIcon from './icons/ArrowLeft';
@@ -27,6 +28,7 @@ import RadioIcon from './icons/Radio';
 import PhoneIcon from './icons/Phone';
 import MinusIcon from './icons/Minus';
 import LogInIcon from './icons/LogIn';
+import CheckIcon from './icons/Check';
 import UserIcon from './icons/User';
 import PlusIcon from './icons/Plus';
 import StarIcon from './icons/Star';
@@ -43,7 +45,9 @@ export const icons = {
   briefcase: BriefcaseIcon,
   burger: BurgerIcon,
   calendar: CalendarIcon,
+  check: CheckIcon,
   'check-circle': CheckCircleIcon,
+  'check-square': CheckSquareIcon,
   'chevron-down': ChevronDownIcon,
   'chevron-up': ChevronUpIcon,
   circle: CircleIcon,
