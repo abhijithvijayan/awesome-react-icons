@@ -20,7 +20,7 @@ const Burger: React.FC<IconProps> = ({
         <path
           d="M4 6H20M4 12H20M4 18H11"
           stroke={stroke}
-          strokeWidth="2"
+          strokeWidth="1.5"
           strokeLinecap="round"
           strokeLinejoin="round"
         />
