@@ -1,7 +1,11 @@
 /* eslint-disable react/jsx-props-no-spreading, @typescript-eslint/no-explicit-any */
 import React from 'react';
 
+import CornerRightDownIcon from './icons/CornerRightDown';
 import CloudLightningIcon from './icons/CloudLightning';
+import CornerLeftDownIcon from './icons/CornerLeftDown';
+import CornerRightUpIcon from './icons/CornerRightUp';
+import CornerLeftUpIcon from './icons/CornerLeftUp';
 import ExternalLinkIcon from './icons/ExternalLink';
 import MoreVerticalIcon from './icons/MoreVertical';
 import ChevronDownIcon from './icons/ChevronDown';
@@ -54,6 +58,10 @@ export const icons = {
   'cloud-lightning': CloudLightningIcon,
   'cloud-snow': CloudSnowIcon,
   coffee: CoffeeIcon,
+  'corner-left-down': CornerLeftDownIcon,
+  'corner-left-up': CornerLeftUpIcon,
+  'corner-right-down': CornerRightDownIcon,
+  'corner-right-up': CornerRightUpIcon,
   'external-link': ExternalLinkIcon,
   'eye-off': EyeOffIcon,
   'log-in': LogInIcon,
