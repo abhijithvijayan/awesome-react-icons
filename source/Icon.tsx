@@ -21,12 +21,14 @@ import ArrowDownIcon from './icons/ArrowDown';
 import ActivityIcon from './icons/Activity';
 import CalendarIcon from './icons/Calendar';
 import SettingsIcon from './icons/Settings';
+import BellOffIcon from './icons/BellOff';
 import ArrowUpIcon from './icons/ArrowUp';
 import BurgerIcon from './icons/Burger';
 import CoffeeIcon from './icons/Coffee';
 import CircleIcon from './icons/Circle';
 import EyeOffIcon from './icons/EyeOff';
 import LogOutIcon from './icons/LogOut';
+import PowerIcon from './icons/Power';
 import WatchIcon from './icons/Watch';
 import RadioIcon from './icons/Radio';
 import PhoneIcon from './icons/Phone';
@@ -36,6 +38,8 @@ import CheckIcon from './icons/Check';
 import UserIcon from './icons/User';
 import PlusIcon from './icons/Plus';
 import StarIcon from './icons/Star';
+import BookIcon from './icons/Book';
+import BellIcon from './icons/Bell';
 import SunIcon from './icons/Sun';
 
 import {IconProps} from './types';
@@ -46,6 +50,9 @@ export const icons = {
   'arrow-left': ArrowLeftIcon,
   'arrow-right': ArrowRightIcon,
   'arrow-up': ArrowUpIcon,
+  bell: BellIcon,
+  'bell-off': BellOffIcon,
+  book: BookIcon,
   briefcase: BriefcaseIcon,
   burger: BurgerIcon,
   calendar: CalendarIcon,
@@ -69,6 +76,7 @@ export const icons = {
   minus: MinusIcon,
   phone: PhoneIcon,
   plus: PlusIcon,
+  power: PowerIcon,
   radio: RadioIcon,
   settings: SettingsIcon,
   smartphone: SmartPhoneIcon,
