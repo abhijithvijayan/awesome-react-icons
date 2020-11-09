@@ -12,6 +12,7 @@ import ChevronDownIcon from './icons/ChevronDown';
 import CheckCircleIcon from './icons/CheckCircle';
 import CheckSquareIcon from './icons/CheckSquare';
 import SmartPhoneIcon from './icons/SmartPhone';
+import HelpCircleIcon from './icons/HelpCircle';
 import ArrowRightIcon from './icons/ArrowRight';
 import ArrowLeftIcon from './icons/ArrowLeft';
 import BriefcaseIcon from './icons/Briefcase';
@@ -71,6 +72,7 @@ export const icons = {
   'corner-right-up': CornerRightUpIcon,
   'external-link': ExternalLinkIcon,
   'eye-off': EyeOffIcon,
+  'help-circle': HelpCircleIcon,
   'log-in': LogInIcon,
   'log-out': LogOutIcon,
   minus: MinusIcon,
