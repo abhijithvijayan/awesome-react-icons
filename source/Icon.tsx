@@ -14,6 +14,7 @@ import CheckSquareIcon from './icons/CheckSquare';
 import SmartPhoneIcon from './icons/SmartPhone';
 import HelpCircleIcon from './icons/HelpCircle';
 import ArrowRightIcon from './icons/ArrowRight';
+import InstagramIcon from './icons/Instagram';
 import ArrowLeftIcon from './icons/ArrowLeft';
 import BriefcaseIcon from './icons/Briefcase';
 import ChevronUpIcon from './icons/ChevronUp';
@@ -22,8 +23,11 @@ import ArrowDownIcon from './icons/ArrowDown';
 import ActivityIcon from './icons/Activity';
 import CalendarIcon from './icons/Calendar';
 import SettingsIcon from './icons/Settings';
+import FacebookIcon from './icons/Facebook';
+import TwitterIcon from './icons/Twitter';
 import BellOffIcon from './icons/BellOff';
 import ArrowUpIcon from './icons/ArrowUp';
+import YouTubeIcon from './icons/YouTube';
 import BurgerIcon from './icons/Burger';
 import CoffeeIcon from './icons/Coffee';
 import CircleIcon from './icons/Circle';
@@ -72,10 +76,13 @@ export const icons = {
   'corner-right-up': CornerRightUpIcon,
   'external-link': ExternalLinkIcon,
   'eye-off': EyeOffIcon,
+  facebook: FacebookIcon,
   'help-circle': HelpCircleIcon,
+  instagram: InstagramIcon,
   'log-in': LogInIcon,
   'log-out': LogOutIcon,
   minus: MinusIcon,
+  'more-vertical': MoreVerticalIcon,
   phone: PhoneIcon,
   plus: PlusIcon,
   power: PowerIcon,
@@ -84,9 +91,10 @@ export const icons = {
   smartphone: SmartPhoneIcon,
   star: StarIcon,
   sun: SunIcon,
+  twitter: TwitterIcon,
   user: UserIcon,
-  'more-vertical': MoreVerticalIcon,
   watch: WatchIcon,
+  youtube: YouTubeIcon,
 };
 
 export type Icons = keyof typeof icons;
