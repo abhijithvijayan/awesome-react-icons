@@ -33,6 +33,7 @@ import CoffeeIcon from './icons/Coffee';
 import CircleIcon from './icons/Circle';
 import EyeOffIcon from './icons/EyeOff';
 import LogOutIcon from './icons/LogOut';
+import MapPinIcon from './icons/MapPin';
 import PowerIcon from './icons/Power';
 import WatchIcon from './icons/Watch';
 import RadioIcon from './icons/Radio';
@@ -45,6 +46,8 @@ import PlusIcon from './icons/Plus';
 import StarIcon from './icons/Star';
 import BookIcon from './icons/Book';
 import BellIcon from './icons/Bell';
+import MailIcon from './icons/Mail';
+import SendIcon from './icons/Send';
 import SunIcon from './icons/Sun';
 
 import {IconProps} from './types';
@@ -81,12 +84,15 @@ export const icons = {
   instagram: InstagramIcon,
   'log-in': LogInIcon,
   'log-out': LogOutIcon,
+  mail: MailIcon,
+  'map-pin': MapPinIcon,
   minus: MinusIcon,
   'more-vertical': MoreVerticalIcon,
   phone: PhoneIcon,
   plus: PlusIcon,
   power: PowerIcon,
   radio: RadioIcon,
+  send: SendIcon,
   settings: SettingsIcon,
   smartphone: SmartPhoneIcon,
   star: StarIcon,
