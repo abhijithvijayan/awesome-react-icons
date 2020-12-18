@@ -24,6 +24,7 @@ import ActivityIcon from './icons/Activity';
 import CalendarIcon from './icons/Calendar';
 import SettingsIcon from './icons/Settings';
 import FacebookIcon from './icons/Facebook';
+import WhatsAppIcon from './icons/WhatsApp';
 import TwitterIcon from './icons/Twitter';
 import BellOffIcon from './icons/BellOff';
 import ArrowUpIcon from './icons/ArrowUp';
@@ -100,6 +101,7 @@ export const icons = {
   twitter: TwitterIcon,
   user: UserIcon,
   watch: WatchIcon,
+  whatsapp: WhatsAppIcon,
   youtube: YouTubeIcon,
 };
 
