@@ -1,6 +1,7 @@
 /* eslint-disable react/jsx-props-no-spreading, @typescript-eslint/no-explicit-any */
 import * as React from 'react';
 
+import EditPencilSimpleIcon from './icons/EditPencilSimple';
 import CornerRightDownIcon from './icons/CornerRightDown';
 import CloudLightningIcon from './icons/CloudLightning';
 import CornerLeftDownIcon from './icons/CornerLeftDown';
@@ -78,6 +79,7 @@ export const icons = {
   'corner-left-up': CornerLeftUpIcon,
   'corner-right-down': CornerRightDownIcon,
   'corner-right-up': CornerRightUpIcon,
+  'edit-pencil-simple': EditPencilSimpleIcon,
   'external-link': ExternalLinkIcon,
   'eye-off': EyeOffIcon,
   facebook: FacebookIcon,
