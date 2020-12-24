@@ -36,6 +36,8 @@ import CircleIcon from './icons/Circle';
 import EyeOffIcon from './icons/EyeOff';
 import LogOutIcon from './icons/LogOut';
 import MapPinIcon from './icons/MapPin';
+import SearchIcon from './icons/Search';
+import UsersIcon from './icons/Users';
 import PowerIcon from './icons/Power';
 import WatchIcon from './icons/Watch';
 import RadioIcon from './icons/Radio';
@@ -43,6 +45,7 @@ import PhoneIcon from './icons/Phone';
 import MinusIcon from './icons/Minus';
 import LogInIcon from './icons/LogIn';
 import CheckIcon from './icons/Check';
+import InboxIcon from './icons/Inbox';
 import UserIcon from './icons/User';
 import PlusIcon from './icons/Plus';
 import StarIcon from './icons/Star';
@@ -51,6 +54,7 @@ import BellIcon from './icons/Bell';
 import MailIcon from './icons/Mail';
 import SendIcon from './icons/Send';
 import SunIcon from './icons/Sun';
+import XIcon from './icons/X';
 
 import {IconProps} from './types';
 
@@ -84,6 +88,7 @@ export const icons = {
   'eye-off': EyeOffIcon,
   facebook: FacebookIcon,
   'help-circle': HelpCircleIcon,
+  inbox: InboxIcon,
   instagram: InstagramIcon,
   'log-in': LogInIcon,
   'log-out': LogOutIcon,
@@ -95,6 +100,7 @@ export const icons = {
   plus: PlusIcon,
   power: PowerIcon,
   radio: RadioIcon,
+  search: SearchIcon,
   send: SendIcon,
   settings: SettingsIcon,
   smartphone: SmartPhoneIcon,
@@ -102,8 +108,10 @@ export const icons = {
   sun: SunIcon,
   twitter: TwitterIcon,
   user: UserIcon,
+  users: UsersIcon,
   watch: WatchIcon,
   whatsapp: WhatsAppIcon,
+  x: XIcon,
   youtube: YouTubeIcon,
 };
 
