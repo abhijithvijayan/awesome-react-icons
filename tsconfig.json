@@ -13,7 +13,6 @@
 		"skipLibCheck": true
 	},
 	"include": [
-		"source",
-		"webpack.config.js"
+		"source"
 	]
 }
